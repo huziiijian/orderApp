@@ -1,0 +1,68 @@
+// 购物车的-+按钮
+.cart-btn {
+  padding: 0 5px;
+  margin-right: 5px;
+  height: 26px;
+  color: green;
+  border: none;
+  background: none;
+  color: #333;
+  &:hover,//&代表元素自身
+  &:active,
+  &:focus {
+    border: none;
+    background: none;
+    color: #000;
+  }
+  &:last-of-type {
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+// 总价
+.total-price {
+  margin-top: 10px;
+}
+// 提交按钮
+.submit-btn {
+  left:calc(50% - 50px);
+  width:100px;
+  margin: 20px auto;
+}
+
+:global{
+  .des {
+  font-size: 10px;
+  font-style: italic;
+  } 
+  .view-btn {
+  padding: 0 5px;
+  height: 26px;
+  border: none;
+  color: rgba(6, 8, 4, 0.938);
+  background: rgba(0,0,0,0);
+  &:hover,//&代表元素自身
+  &:active,
+  &:focus{
+    background: rgba(0,0,0,0);
+    color: rgb(46, 117, 16);
+    }
+  }
+  .add-btn {
+  padding: 0 5px;
+  height: 26px;
+  border: none;
+  color: rgba(6, 8, 4, 0.938);
+  background: rgba(0,0,0,0);
+  &:hover,//&代表元素自身
+  &:active,
+  &:focus {
+    background: rgba(0,0,0,0);
+    color: rgb(46, 117, 16);
+    }
+  }
+  //在缩放时还是有一些问题
+  .sonTable{
+    margin-right:-46%;
+  }
+}

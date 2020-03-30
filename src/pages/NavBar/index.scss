@@ -1,0 +1,38 @@
+// 引入公共样式
+@import '../../scss/common.scss';
+
+.header {
+  white-space: nowrap;
+  height: 100%;
+  width: 100%;
+  background: #f8f9fa;
+  position: relative;
+  .logo {
+    display: inline-block;
+    height: 100%;
+    border:10px;
+    margin: auto 10px;
+  }
+  .menu-left {
+    display: inline-block;
+    vertical-align: top;
+    background: none;
+    border-bottom: none;
+    position: relative;
+    width: calc(100% - 44px);
+    .login {
+      position: absolute;
+      right: 68px;
+    }
+    .register {
+      position: absolute;
+      right: 0;
+    }
+  }
+  .dropdown-menu {
+    position: absolute;
+    right: 10px;
+    height: $header-height;
+    line-height: $header-height;
+  }
+}

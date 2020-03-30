@@ -1,0 +1,10 @@
+.about {
+  display: flex;
+  .tabs {
+    display: inline-block;
+    width: 110px;
+  }
+  .routes {
+    flex: 1 130px;
+  }
+}

@@ -1,0 +1,1 @@
+webpackJsonp([13],{xlOB:function(e,t,s){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o={namespace:"home",state:{text:"this is the home component"},subscriptions:{},effects:{},reducers:{}};t.default=o}});

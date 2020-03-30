@@ -1,0 +1,25 @@
+.account {
+  width: 100%;
+  border: 1px solid #eee;
+  padding: 0 15px;
+  .logo {
+    display: block;
+    margin: auto;
+  }
+}
+.btn{
+    left:calc(50% - 50px);
+    width:100px;
+    margin: 20px auto;
+}
+
+:global {
+  .ant-row{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 15px;
+  .ant-col {
+    text-align: left;
+    }
+  }
+}

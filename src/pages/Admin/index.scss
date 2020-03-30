@@ -1,0 +1,29 @@
+$red: red;// 定义red变量
+.admin {
+  .left {
+    padding-right: 50px;
+  }
+  .right {
+    .del-btn {
+      // font-size: 16px;
+      height: 20px;
+      padding: 0 5px;
+      border: none;
+      background: rgba(0,0,0,0);//很有用
+      &:hover,
+      &:active,
+      &:focus {
+        border-color: $red;
+        color: $red;
+      }
+      span {
+        display: inline;
+      }
+    }
+  }
+}
+.btn{
+  left: calc(50% - 50px);
+  line-height: 20px;
+  margin: 20px auto;
+}
