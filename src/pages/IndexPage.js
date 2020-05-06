@@ -29,6 +29,7 @@ function IndexPage(props) {
       </Header>
       <Content className={style.content}>
         <Switch>
+          {/* 注意Switch引用时一定要刚好只包裹路由组件，否则会无法显示路由 */}
           {/* <Route path="/home" component={Home} />
           <Route path="/menus" component={Menus} />
           <Route path="/admin" component={Admin} />
